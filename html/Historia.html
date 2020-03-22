@@ -4,37 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel=”stylesheet” type=”text/css” href=”Proyect_Leslie_Lnd_Eva2/estilo.css”>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/historia.css">
 </head>
 <body>
-    <header>
-        <div id = "Titulo">
-            Aertyou
+    <header>  
+        <div id = "titulo">Artico Negro 
+             
         </div>
-        <div id = "Idioma">
-            <p>Elige Idioma: 
-                <select name="color">
-                  <option><a href = "Index-es.html"> Español</a></option>
-                  <option><a href = "Index-en.html"> English</a></option>
+        <div id = "boxidioma"> 
+            <elige>Elige Idioma:</elige>  
+            <div id = desplegable>    
+                <select name="select">  
+                  <option></option>
+                  <option><a href = "index-es.html"> Español</a></option>
+                  <option><a href = "index-en.html"> English</a></option>
                 </select>
-             </p>
+            </div>
         </div>
     </header>
-
+    <div id ="separador"></div>
+  
     <nav>
-        <ul id = "Menu">    
-            
-            <li><a href = "../indexes.html">Inicio</a>    
-            <li><a href = "#">Media</a>
+        <ul class = "menu">                
+            <li id = "inicio"><a href = "../indexes.html">Inicio</a>    
+            <li id = "media">Media
                 <ul>
-                    <li><a href = "video.html">Video</a></li>
+                    <li id ="video"><a href = "video.html">Video</a></li>
                  </ul>
-            </li>
-            <li><a><a href = "Estadisticas.html"> Índices de contaminación</a></li>
-            <li><a href = "Historia.html">Historia</a></li>
-            <li><a href = "Colabora.html">Colabora</a></li>
+            </li>  
+            <li id="historia"><a href = "Historia.html">Historia</a></li>
+            <li id="colabora"><a href = "Colabora.html">Colabora</a></li>
         </ul>
     </nav>
+
+    <main role="main">
+        <section>
+            <aside id="iconsmedia">
+                <a href="https://twitter.com/?lang=es"><img src="../iconos-media/twiter.png"></a>
+                <a href="https://www.facebook.com/"><img src="../iconos-media/facebook.png"></a>
+                <a href="https://www.instagram.com/?hl=es"><img src="../iconos-media/Instagram.png"></a>
+                <a href="https://www.whatsapp.com"><img src="../iconos-media/Whatsapp.png"></a>
+                <a href="https://www.youtube.com/"><img src="../iconos-media/youtube.png"></a>           
+            </aside>
+            <article>
+                <p>Principales problemas del medio ambiente
+                    Así pues, para abordar el fenómeno de la contaminación de la Tierra en toda su complejidad,
+                    es necesario abordar los principales problemas del medio ambiente, entre los que podemos destacar los siguientes:
+                </p>
+
+                <p>Los pesticidas y productos químicos
+                Los productos que se usan en la agricultura y en la industria convencional liberan enormes cantidades de gases
+                de efecto invernadero, que son causantes directos del deterioro de la capa de ozono y del cambio climático. 
+                También perjudican el estado de los suelos destinados al cultivo y las fuentes de agua. En este sentido, 
+                la Organización Mundial de la Salud señala el riesgo del uso de sustancias químicas como los plaguicidas, 
+                debido a su capacidad de permanecer en el agua y el suelo durante años. Pero también resalta que pueden resultar tóxicos
+                para el ser humano.
+                </p>
+                <p>
+                2. La deforestación
+                Los árboles ayudan a purificar el aire. Sin embargo, en las últimas décadas hemos asistido a la desaparición 
+                de cientos de bosques en el mundo. Se calcula que cada año desaparece una extensión similar al territorio de Panamá o Portugal. 
+                Ante este panorama, los efectos de los gases que se encuentran en el aire son más notorios y pueden causar graves enfermedades 
+                para las especies terrestres. Y no digamos, como a veces dicen nuestros hijos e hijas, “yo no he sido”,
+                porque la ONG Mighty Earth indicaba recientemente que existe una estrecha relación entre la deforestación y la alimentación,
+                ya que, por ejemplo, se están extendiendo los monocultivos de soja (más de un 70% de la producción mundial de soja se destina a
+                pienso para la ganadería).
+                </p>
+                <p>
+                3. Los desechos industriales y domésticos
+                El consumo masivo promueve procesos industriales en cadena que pasan por alto la protección del medio ambiente. 
+                Los desechos que se generan tras estos procesos son una de las principales causas de la contaminación.
+                </p>
+                <p>
+                4. Los combustibles fósiles
+                La excesiva explotación del carbón, el petróleo y el gas natural, entre otros, genera altos índices de contaminación, 
+                no solo en el aire sino en los entornos en donde se extraen tales recursos. Hasta la fecha, ninguna convención internacional 
+                ha logrado trazar un límite claro entre el desarrollo sostenible y el cuidado de la Tierra. Sin embargo, los 17 Objetivos
+                de Desarrollo Sostenible de la ONU sí ponen el foco en esta cuestión: fomentar un desarrollo que no ponga en peligrolos recursos ni el bienestar de las generaciones venideras.
+                </p>
+                <p>
+                5. Los altos índices de producción de basura
+                Nuestras sociedades se caracterizan por el alto consumo de bienes, lo cual genera a su vez un alto nivel de residuos. 
+                Cuantos más sean, mayores daños causarán a la Tierra. De ahí la importancia de su selección.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    
+    
 
     <footer>
         <div id = "footer">
@@ -47,4 +108,3 @@
     
 </body>
 </html>
-<!--https://waqi.info/es/    indices de contaminacion-->

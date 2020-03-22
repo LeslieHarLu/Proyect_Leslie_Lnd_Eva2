@@ -1,5 +1,5 @@
 body {
-    background: url("../background-images/3.jpg");
+    background: url("../background-images/2.jpg");
     max-width: 100%; /*como max 100% de ancho*/
   
 }
@@ -25,21 +25,26 @@ aside{
 
     aside img:hover {
             filter: drop-shadow(3px 3px 4px yellow);
+            
         }
 
 
 
-
 article {
-    display: flex;
     box-shadow: 2px -1px 5px #ffce00 , 2px -1px 10px #ffce00;
     border:2px solid #ffce00; 
     justify-content: center;
     align-content: center; /*centrar en el eje y*/
-    width: 34%;
-    margin-left: 30%;
+    width: 55%;
+    margin-left: 15%;
+    padding:3%;
 }
 
+    
+article p {
+    color:white;
+    font-weight: 400;
+}
 
 section{
     display: flex;
