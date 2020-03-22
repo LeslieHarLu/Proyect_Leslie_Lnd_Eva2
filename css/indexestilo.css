@@ -1,0 +1,48 @@
+body {
+    background: url("../background-images/1.jpg");
+    max-width: 100%; /*como max 100% de ancho*/
+  
+}
+
+header{
+    display: flex;
+    width: 100%; 
+    font-family: 'EB Garamond', serif;
+    font-variant: small-caps;
+}
+
+#separador{
+    width: 100%;
+    height: 22px;
+    border: 1px solid whitesmoke; /*grosor tipo color;--linea*/
+}
+
+#titulo{ 
+    width:80%;
+    font-size: 5em;
+    color:white;
+    text-shadow: 2px -4px 5px #FFF  , 2px -4px 10px #FFF;
+
+    /*x-y-desenfoque-opacidad "pixeles"*/ /*varias capas que va aumentando en el desenfoque,stilo-néon*/
+}
+
+#boxidioma{
+    width:20%;
+    display:flex;
+    color: azure;
+    margin: 2% 0% 1% 6%; /*Con porcentajes se ajusta al tamaño del navegador y no se queda fijo */
+    text-shadow: 2px -1px 5px #FFF  , 2px -1px 10px #FFF;
+
+}
+elige{
+margin-right: 6%; /*se separa del desplegable*/
+}
+select{
+border:1px solid white;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}

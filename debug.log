@@ -1,0 +1,1 @@
+[0321/231539.680:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Lye Blue\AppData\Local\Google\Chrome\User Data\Crashpad\reports\2e8377b2-42f7-4445-abb3-132f618e4a75.dmp: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)

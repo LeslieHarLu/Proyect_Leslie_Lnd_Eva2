@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel=”stylesheet” type=”text/css” href=”css/estilo.css”>
+    <link rel="stylesheet" href="css/indexestilo.css">
 </head>
 <body>
-    <header>
-        <div id = "Titulo">
-            Aertyou
+    <header>  <!--Padre 1- por eso display:flex-><!--trata a sus hijos como bloque-->
+        <div id = "titulo"> <!--Hijo 1 de Header-->
+             Smoke 
         </div>
-        <div id = "Idioma">
-            <p>Elige Idioma: 
-                <select name="color">
-                  <option><a href = "Index-es.html"> Español</a></option>
-                  <option><a href = "Index-en.html"> English</a></option>
+        <div id = "boxidioma"><!--Hijo 2 de Header-- & Padre 2- display:flex-->  
+            <elige>Elige Idioma:</elige>  <!--Hijo Padre2 Idioma--><!--probando nombres de etiquetas-->      
+            <div id = desplegable>    <!--Hijo Padre2--Idioma-- & Padre 3-->
+                <select name="select"> <!--Hijo Padre 3--> 
+                  <option></option>
+                  <option><a href = "index-es.html"> Español</a></option>
+                  <option><a href = "index-en.html"> English</a></option>
                 </select>
-             </p>
+            </div>
         </div>
     </header>
+    <div id ="separador"></div>
 
     <nav>
-        <ul id = "Menu">    
-            
+        <ul class = "menu">    
+             
             <li><a href = "indexes.html">Inicio</a>    
             <li><a href = "#">Media</a>
                 <ul>
@@ -35,6 +38,33 @@
             <li><a href = "html/Colabora.html">Colabora</a></li>
         </ul>
     </nav>
+    <main role="main">
+        <section>
+            <article id ="slider">
+                <ul>
+                    <li>
+                        <img src="animals/avestruz.jpg">
+                    </li>
+                    <li>
+                        <img src="animals/ballena.jpg">
+                    </li>
+                    <li>
+                        <img src="animals/buho.jpg">
+                    </li>
+                    <li>
+                        <img src="animals/lobo.jpg"> 
+                    </li>
+                    <li>
+                        <img src="animals/oso.jpg"> 
+                    </li><li>
+                        <img src="animals/zorro.jpg"> 
+                    </li>
+                </ul>
+
+            </article>
+        </section>
+    </main>
+    
 
     <footer>
         <div id = "footer">
