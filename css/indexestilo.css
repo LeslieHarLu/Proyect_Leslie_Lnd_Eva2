@@ -9,6 +9,7 @@ img{
     height: auto;
 }
 
+
 aside{
     width:4%; /*iconos no cojan todo el ancho d la pag*/
     display: flex;
@@ -38,7 +39,8 @@ article ul{
 }
 
 article {
-    border:2px solid yellow;
+    box-shadow: 2px -1px 5px #ffce00 , 2px -1px 10px #ffce00;
+    border:2px solid #ffce00;
     width: 80%;
     overflow: hidden;
     margin-left: 6%; /*para que lo que hay dentro del verde no se desborde */

@@ -1,0 +1,52 @@
+body {
+    background: url("../background-images/3.jpg");
+    max-width: 100%; /*como max 100% de ancho*/
+  
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+aside{
+    width:4%; /*iconos no cojan todo el ancho d la pag*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+     aside img{
+        width:75%;
+        height:auto;
+        display:block;
+    }
+
+    aside img:hover {
+            filter: drop-shadow(3px 3px 4px yellow);
+        }
+
+
+
+
+article {
+    display: flex;
+    box-shadow: 2px -1px 5px #ffce00 , 2px -1px 10px #ffce00;
+    border:2px solid #ffce00; 
+    justify-content: center;
+    align-content: center; /*centrar en el eje y*/
+    width: 34%;
+    margin-left: 30%;
+}
+
+section{
+    display: flex;
+}
+
+video{
+    margin-bottom: 8%;
+    display: block;
+}
+
+
