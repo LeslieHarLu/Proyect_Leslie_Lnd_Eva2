@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/indexestilo.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <header>  <!--Padre 1- por eso display:flex-><!--trata a sus hijos como bloque-->
         <div id = "titulo"> <!--Hijo 1 de Header-->
-             Smoke 
+             
         </div>
         <div id = "boxidioma"><!--Hijo 2 de Header-- & Padre 2- display:flex-->  
             <elige>Elige Idioma:</elige>  <!--Hijo Padre2 Idioma--><!--probando nombres de etiquetas-->      
@@ -23,21 +24,21 @@
         </div>
     </header>
     <div id ="separador"></div>
-
+  
     <nav>
-        <ul class = "menu">    
-             
-            <li><a href = "indexes.html">Inicio</a>    
-            <li><a href = "#">Media</a>
+        <ul class = "menu">                
+            <li id = "inicio"><a href = "indexes.html">Inicio</a>    
+            <li id = "media">Media
                 <ul>
-                    <li><a href = "html/video.html">Video</a></li>
+                    <li id ="video"><a href = "html/video.html">Video</a></li>
                  </ul>
             </li>
-            <li><a><a href = "html/Estadisticas.html"> Índices de contaminación</a></li>
-            <li><a href = "html/Historia.html">Historia</a></li>
-            <li><a href = "html/Colabora.html">Colabora</a></li>
+            <li id="contaminacion"><a><a href = "html/Estadisticas.html">Contaminación</a></li>
+            <li id="historia"><a href = "html/Historia.html">Historia</a></li>
+            <li id="colabora"><a href = "html/Colabora.html">Colabora</a></li>
         </ul>
     </nav>
+
     <main role="main">
         <section>
             <article id ="slider">

@@ -1,0 +1,58 @@
+nav ul{
+    display: flex; /*tiene que ser padre*/
+    align-content: center;
+    width: 90%;
+    height: 60px;
+    margin-bottom: 200px;
+    list-style: none;
+    justify-content:space-evenly;
+}
+
+nav ul li{
+ display: block; /**/
+ font-family: 'EB Garamond', serif;
+ font-variant: small-caps;
+ text-shadow: 2px -1px 5px #ffce00 , 2px -1px 10px #ffce00;
+ font-size: 25px;
+ color:#ffce00;
+}
+nav ul li:hover{
+    color:white;
+    text-shadow: 2px -1px 5px #fff , 2px -1px 10px #fff;
+}
+
+a{
+  text-decoration: none;
+  color:#ffce00;
+}
+
+#inicio{
+  width: 15%;  
+}
+
+#media{
+    width: 15%;
+  }
+ 
+
+#contaminacion{
+    width: 29%;  
+  }
+
+#historia{
+    width: 18%;  
+  }
+
+#colabora{
+    width: 20%;
+}
+
+
+nav ul li > ul{
+    display:none; /*No se muestra, esta invisible*/
+}                 /*leer de drcha a izq, cogemos elementos bloque no el li final*/
+
+nav ul li:hover > ul {      /*selecciona los elementos que son hijos directos del primer elemento.*/
+  display: block;
+} 
+                              
