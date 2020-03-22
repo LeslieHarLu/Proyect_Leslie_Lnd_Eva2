@@ -4,46 +4,79 @@ body {
   
 }
 
-header{
-    display: flex;
-    width: 100%; 
-    font-family: 'EB Garamond', serif;
-    font-variant: small-caps;
-}
-
-#separador{
-    width: 100%;
-    height: 22px;
-    border: 1px solid whitesmoke; /*grosor tipo color;--linea*/
-}
-
-#titulo{ 
-    width:80%;
-    font-size: 5em;
-    color:white;
-    text-shadow: 2px -4px 5px #FFF  , 2px -4px 10px #FFF;
-
-    /*x-y-desenfoque-opacidad "pixeles"*/ /*varias capas que va aumentando en el desenfoque,stilo-néon*/
-}
-
-#boxidioma{
-    width:20%;
-    display:flex;
-    color: azure;
-    margin: 2% 0% 1% 6%; /*Con porcentajes se ajusta al tamaño del navegador y no se queda fijo */
-    text-shadow: 2px -1px 5px #FFF  , 2px -1px 10px #FFF;
-
-}
-elige{
-margin-right: 6%; /*se separa del desplegable*/
-}
-select{
-border:1px solid white;
-}
-
-
-
 img{
     max-width: 100%;
     height: auto;
+}
+
+aside{
+    width:4%; /*iconos no cojan todo el ancho d la pag*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+     aside img{
+        width:75%;
+        height:auto;
+        display:block;
+    }
+
+    aside img:hover {
+            filter: drop-shadow(3px 3px 4px yellow);
+        }
+
+
+
+
+article ul{
+   display: flex; /*el flex por defecto los pone en línea*/
+   padding: 0%; /*asegurar que no haya otro padding*/ /*tenemos 6 img, y cada una ocupará 100*/
+   width: 600%; /*para que sólo aparezca una imagen junto con el overflow*//*yorki no puede morverse en estado inicial*/
+   animation: slider 45s infinite alternate linear;
+   margin-left:34%;
+}
+
+article {
+    border:2px solid yellow;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 6%; /*para que lo que hay dentro del verde no se desborde */
+}
+
+section{
+    display: flex;
+}
+
+article ul li {
+    width: 100%;
+    list-style: none;/*quita los puntos de las listas*/
+}
+
+article ul li img{
+    width:auto;
+    height:300px;
+}
+
+
+
+@keyframes slider {
+ 
+    6%{margin-left:34%;}  
+    16%{margin-left:34%;}
+
+    22%{margin-left:-66%;}/*la ballena n.2 ocupa el lugar de yorkim.1*/ 
+    33%{margin-left:-66%;}/*Va de 100 en 100 xq ocupa el width total de l img q es 100%*/
+
+    40%{margin-left:-166%;}
+    50%{margin-left:-166%;}
+
+    56%{margin-left:-266%;}
+    66%{margin-left:-266%;}
+
+    72%{margin-left:-366%;}
+    86%{margin-left:-366%;}
+
+    92%{margin-left:-466%;}
+    100%{margin-left:-466%;}
 }

@@ -3,9 +3,9 @@ nav ul{
     align-content: center;
     width: 90%;
     height: 60px;
-    margin-bottom: 200px;
     list-style: none;
     justify-content:space-evenly;
+
 }
 
 nav ul li{
@@ -15,10 +15,12 @@ nav ul li{
  text-shadow: 2px -1px 5px #ffce00 , 2px -1px 10px #ffce00;
  font-size: 25px;
  color:#ffce00;
+ text-align: center;
 }
+
 nav ul li:hover{
-    color:white;
-    text-shadow: 2px -1px 5px #fff , 2px -1px 10px #fff;
+color:white;
+text-shadow: 2px -1px 5px #fff , 2px -1px 10px #fff;
 }
 
 a{
@@ -27,24 +29,20 @@ a{
 }
 
 #inicio{
-  width: 15%;  
+  width: 22.5%;  
 }
 
 #media{
-    width: 15%;
+    width: 22.5%;
   }
  
 
-#contaminacion{
-    width: 29%;  
-  }
-
 #historia{
-    width: 18%;  
+    width: 22.5%;  
   }
 
 #colabora{
-    width: 20%;
+    width: 22.5%;
 }
 
 
